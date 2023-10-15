@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complaint Management System</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@600&family=Lilita+One&family=Roboto+Mono&family=Young+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="headSection">
+        <div class="logo">
+          <img src="RkLogo.jpg" alt="RK">
+        </div>
+        <h2>Complaint Management System</h2>
+      </div>
+      <div class="topNavbar">
+        <a href="#aboutCMS"><div><i class="fa-solid fa-address-card"></i> About CMS</div></a> 
+        <a href="#dashboardHeading"><div><i class="fa-solid fa-boxes-stacked"></i> Dashboard</div></a> 
+        <a href="#complaintsHeading"><div><i class="fa-solid fa-comments"></i> Complaints</div></a>
+        <a href="#filecomplaintHeading"><div><i class="fa-solid fa-pen-to-square"></i> File a Complaint</div></a>
+      </div>
+    </header>
+
+
+    <main>
+      <h2 class="aboutHeading" id="aboutCMS">About CMS</h2>
+      <div class="about">
+
+      <div class="aboutContent">
+       
+        <p style="font-size: 1.3em;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quidem, iste accusantium, dignissimos corporis quam ea nam eos porro tenetur aspernatur nobis exercitationem. Nobis illo, cumque fugiat qui corrupti reiciendis?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolore quidem iste eos, quos quasi tempora autem labore, ipsum ea harum neque obcaecati quod recusandae! Dolor perferendis possimus similique vitae!
+        <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis vero quis ipsum, rerum laudantium nostrum nulla. Optio iure, alias deleniti pariatur dolorem cum, quo ea voluptas quaerat vitae fugiat soluta! Veritatis consectetur amet aut rem beatae exercitationem, aliquam natus laboriosam?
+        </p>
+      </div>
+        <img src="rk.jpg" alt="RKHallOfResidence">
+      </div>
+
+      <h2 id="dashboardHeading">Dashboard</h2>
+      <div class="dashboard">
+        <div class="dashboardItems" id="total">Total</div>
+        <div class="dashboardItems" id="notProcessed">Not Processed</div>
+        <div class="dashboardItems" id="inProcess">In Process</div>
+        <div class="dashboardItems" id="closed">Closed</div>
+      </div>
+  
+      <div class="complaints">
+        <h2 id="complaintsHeading">Complaints</h2>
+        <div class="complaintsItems" id="s1">Name -Student1 <br>Roll No - 22CS10031 <br>Room No. - A101 <br> Complaint - Electricity</div>
+        <div class="complaintsItems" id="s2">Name -Student2 <br>Roll No - 22EC10031 <br>Room No. - B101 <br> Complaint - Water</div>
+        <div class="complaintsItems" id="s3">Name -Student3 <br>Roll No - 22MA10031 <br>Room No. - C101 <br> Complaint - Wifi/LAN</div>
+        <div class="complaintsItems" id="s4">Name -Student4 <br>Roll No - 22IE10031 <br>Room No. - D101 <br> Complaint - Water</div>
+        <div class="complaintsItems" id="s5">Name -Student5 <br>Roll No - 22IM10031 <br>Room No. - E101 <br> Complaint - Wifi/LAN</div>
+        <a href="#"><div class="complaintsItems" id="sm"><u>Show More</u></div></a>
+      </div>
+      
+
+      <div class="fileComplaint">
+        <h2 id="filecomplaintHeading">File a Complaint</h2>
+        <div class="writeComplaint">
+          <div>
+            
+          Name :<input type="text">
+            <br>
+          Roll No: <input type="text">
+            <br>
+          Room No:<input type="text">
+            <br>
+          Complaint Type:<select name="complaintType" id="complaintType">
+            <option value="ChooseType">Choose Complaint Type</option>
+            <option value="Civil">Civil</option>
+            <option value="Electrical">Electrical</option>
+            <option value="Water">Water</option>
+            <option value="Internet/wifi">Internet/wifi</option>
+          </select>
+          <br>
+          Write your complaint: <input type="text" style="height: 10em;">
+        </div>
+        <button class="submit">Submit</button>
+      </div>
+    </main>
+    <footer>
+      <h3 class="follow">Follow us on:</h3>
+      <div class="socialmedia">
+        <div>
+          <a href="https://www.facebook.com/R.K.Hall.IITkgp" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/rkh.iitkgp/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <div>
+          <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/groups/4072350/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <br>
+<hr style="width: 90%; color: #6eecff42;">
+
+<div class="footerContent">
+  <div class="footerinfo">
+    <h3>lorem:</h3>
+    <div class="support">
+      <span><a href="#">Lorem ipsum dolor sit amet.</a></span>
+    <span><a href="#">Lorem ipsum dolor sit.</a></span>
+    <span><a href="#">Lorem ipsum dolor sit.</a></span>
+    </div>
+  </div>
+  <div class="footerinfo">
+    <h3>lorem:</h3>
+    <div class="support">
+      <span><a href="#">Lorem ipsum dolor sit amet.</a></span>
+    <span><a href="#">Lorem ipsum dolor sit.</a></span>
+    <span><a href="#">Lorem ipsum dolor sit.</a></span>
+    </div>
+  </div>
+  <div class="footerinfo">
+    <h3>lorem:</h3>
+    <div class="support">
+      <span><a href="#">Lorem ipsum dolor sit amet.</a></span>
+    <span><a href="#">Lorem ipsum dolor sit.</a></span>
+    </div>
+  </div>
+  <div class="footerinfo">
+    <h3>Support:</h3>
+    <div class="support">
+      <span><i class="fa-solid fa-phone-volume"></i> 9876543210</span>
+    <span><a href="#"><i class="fa-solid fa-envelope"></i> xyz123@gmail.com</a></span>
+    </div>
+  </div>
+</div>
+      <div class="other">
+        <span> Terms and conditions </span><span>Privacy policy</span
+          ><span>Copyright information</span>
+      </div>
+      <a href="#"><button class="BacktoTop">Back to Top <i class="fa-solid fa-circle-up"></i></button></a>
+    </footer>
+  </body>
+</html>
