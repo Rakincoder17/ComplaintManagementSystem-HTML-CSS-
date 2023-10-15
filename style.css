@@ -160,7 +160,7 @@ h2{
 @media (max-width:430px){
     .about {
         padding: 3em;
-        height: 52em;
+        height: 250%;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -173,7 +173,7 @@ h2{
 }
 @media (max-width:340px){
     .about {
-        height: 100%;
+        height: 250%;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -206,7 +206,7 @@ h2{
 }
 @media (max-width:600px) and (min-width:430px){
     .about {
-        height: 150%;
+        height: 200%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
